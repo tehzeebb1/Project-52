@@ -1,0 +1,56 @@
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: 'Courier New';
+    font-weight: 400;
+    color: #ffffff;
+}
+
+body
+{
+background-color: #f5f5f5;
+margin: 0px;
+}
+
+.grid
+{
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+.grid img
+{
+    border: 2px solid #000000;
+    background-color: #fff8dc;
+
+    width: 310px;
+    font-family: fantasy;
+}
+
+.oragami 
+{
+    padding: 10px;
+    margin: 10px;
+}
+a:link
+{
+    color:whitesmoke
+}
+a:visited
+{
+    color:purple
+}
+.oragami:hover
+{
+    opacity:1;
+}
+
+.oragami:hover img
+{
+    opacity:0.33
+}
